@@ -1,0 +1,85 @@
+<view class="header">
+  <view class="head">
+    <view class="head-img">
+      <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/head.jpg"></image>
+    </view>
+    <view class="head-box" >
+      <view bindtap="add">
+        <text>点此登录</text>
+        <view class="head-text">
+          <text>登录更精彩</text>
+        </view>
+      </view>    
+    </view>      
+  </view>
+
+  <view class="ks">
+    <view>
+      <text>2.00</text>
+      <view class="ks-text">我的矿石(mg)</view>
+    </view>
+    <view>
+      <text>0.00</text>
+      <view class="ks-text">我的钱包(元)</view>
+    </view>
+    <view>
+      <text>0</text>
+      <view class="ks-text">我的礼包</view>
+    </view>
+  </view>
+</view>
+<view class="resume">
+  <view>
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/resume.png"></image>    
+    <view class="resume-text">
+      <text>我的简历</text>
+    </view>
+  </view>
+  <view>
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/message.png"></image>
+    <view class="resume-text">
+      <text>信息管理</text>
+    </view>    
+  </view>
+  <view>
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/record.png"></image>
+    <view class="resume-text">  
+      <text>申请记录</text>
+    </view>   
+  </view>
+</view>
+<view class="signin">
+  <view>
+    <text>每日签到</text>
+    <view>
+      <text class="signin-text">免费领现金</text>
+    </view>          
+  </view>
+  <view>
+    <view class="signin-img">
+      <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/signin.png"></image>
+    </view>
+  </view>   
+   <view>
+    <text>幸运转盘</text>
+    <view>
+       <text class="signin-text">领话费、抽钻石</text>
+    </view>
+             
+  </view>
+  <view>
+    <view class="signin-img">
+      <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/choujiang.png"></image>
+    </view>
+  </view>   
+</view>
+<view class="opinion">
+  <view>
+    <text>意见反馈</text>
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/dy.png"></image>
+  </view>
+  <view>
+    <text>联系客服</text>
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/dy.png"></image>
+  </view>
+</view>

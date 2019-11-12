@@ -1,0 +1,10 @@
+<image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/58tc.png"></image>
+<form>
+  <input type="text" placeholder="用户名/电子邮箱/手机号" placeholder-class="placeholder"></input>
+  <input type="password" placeholder="请输入密码" placeholder-class="placeholder"></input>
+  <button>登录</button>
+  <view>
+    <text>手机号登录</text>
+    <text>忘记密码</text>
+  </view>
+</form>

@@ -1,0 +1,33 @@
+image{
+  margin: 20px auto;
+  width: 126rpx;
+  height:42rpx;
+}
+form{
+  width: 70%;
+  margin: 0 auto
+}
+.placeholder{
+  color: #cdcdcd
+}
+input{
+  margin: 30px auto;
+  border-bottom: 1px solid #ddd;
+}
+button{
+  border-radius: 0;
+  background-color: #fe5430;
+  color: white
+}
+view{
+  margin: 30rpx auto
+}
+text{
+  color: #979797
+}
+text:nth-child(1){
+  float: left
+}
+text:nth-child(2){
+  float: right
+}

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/three/three",
+    "pages/two/two",
+    "pages/one/one",        
+    "pages/weather/weather",
+    "pages/four/four",
+    "pages/login/login",  
+    
+
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "58同城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+      "list": [
+        {
+          "pagePath": "pages/one/one",
+          "text": "首页",
+          "iconPath": "images/one.png",
+          "selectedIconPath": "images/one_s.png"
+        },
+        {
+          "pagePath": "pages/two/two",
+          "text": "任务",
+          "iconPath": "images/two.png",
+          "selectedIconPath": "images/two_s.png"
+        },
+        {
+          "pagePath": "pages/three/three",
+          "text": "消息",
+          "iconPath": "images/three.png",
+          "selectedIconPath": "images/three_s.png"
+        },
+        {
+          "pagePath": "pages/four/four",
+          "text": "个人中心",
+          "iconPath": "images/four.png",
+          "selectedIconPath": "images/four_s.png"
+        }
+      ]
+    },
+  "sitemapLocation": "sitemap.json"
+}

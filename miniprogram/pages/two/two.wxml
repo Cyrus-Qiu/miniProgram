@@ -1,0 +1,51 @@
+<view class="head">
+  <view class="gzsm">
+    <image src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/gzsm.png"></image>
+    <text>规则说明</text>
+  </view>
+</view>
+<view class="box">
+  <view class="duih">
+    <view class="dh-head">
+      <view>
+        <text>2mg</text>
+        <view>
+          <text class="dh-text">神奇矿</text>
+        </view>
+      </view>
+      <view>
+        <text>≈</text>
+      </view>
+      <view>
+        <text>0.05元</text>
+       <view>
+          <text class="dh-text">现金</text>
+        </view>
+      </view>
+     
+    </view>
+     <button type="primary">兑换</button>
+    <view class="dh-body">
+      <text>实时矿石汇率 : 1000mg=26.12元</text>
+    </view>
+  </view>
+  <view class="signin">
+      <view class="date">
+    <image class="direction" src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/zuola.png" bindtap='minusMouth'/>
+    <label>{{year}}年{{mouth}}月</label>
+    <image class="direction" src="cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/youla.png" bindtap='plusMouth' />
+</view>
+<view class="header">
+    <block wx:for="{{weeks}}" wx:key="index">
+        <text class="weeks-item-text">{{item}}</text>
+    </block>
+</view>
+<view class="body-days">
+    <block wx:for="{{days}}" wx:key="index">
+        <view class="days-item" >
+            <view class="days-item-text" wx:if="{{item>0}}">{{item}}</view>
+        </view>
+    </block>
+</view>
+  </view>
+</view>

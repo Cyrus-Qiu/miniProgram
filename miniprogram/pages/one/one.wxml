@@ -1,0 +1,47 @@
+<view class="box">
+  <view class="head">
+    <text bindtap="add">{{weatherData}}</text>
+    <input type="text" placeholder="找工作 找房子 找服务"></input>
+  </view>
+  <view class="nav">
+    <block wx:for="{{nav}}" wx:key="{{index}}">
+      <view>
+        <image src="{{item.img}}"></image>
+        <text>\n</text>
+        <text>{{item.title}}</text>       
+      </view>
+    </block>
+  </view>
+  
+  <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">服务     </view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">资讯       </view> 
+  </view>
+  <view class = "{{currentTab == 0 ? 'show':'hidden'}}" >
+    <block wx:for="{{con}}" wx:key="{{index}}">
+        <view class="fw">
+          <text>{{item.headline}}</text>
+          <text>\n</text>
+          <text>{{item.site}}</text>
+          <text>{{item.post}}</text>
+          <text>\n</text>
+          <text>{{item.company}}</text>
+          <text>\n</text>
+          <text>{{item.salary}}</text>
+          <text>元/小时</text>
+          <text>投简历</text>
+        </view>
+      </block>
+  </view>
+  <view class = "{{currentTab == 1 ? 'show':'hidden'}}" >
+     <block wx:for="{{zixun}}" wx:key="{{index}}">
+        <view class="zx">
+           <text>{{item.headline}}</text>
+           <image src="{{item.src}}"></image>
+           <image src="{{item.src}}"></image>
+           <image src="{{item.src}}"></image>
+           <text>{{item.text}}</text>
+        </view>
+     </block>
+  </view>
+</view>

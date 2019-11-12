@@ -1,0 +1,112 @@
+.header{
+  background: #fd6742;
+  padding-top: 50rpx;
+  padding-bottom: 100rpx;
+}
+.head{
+  display: flex;
+  width: 90%;
+  margin: 0 auto
+}
+.head-img image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.head-box{
+  margin-left: 50rpx;
+  line-height: 50rpx;
+}
+.head-box text{
+  color: white;
+  font-size: 20px;
+}
+.head-text text{
+  color: #fac6ae;
+  font-size: 12px;
+}
+.ks{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.ks>view{
+  width: 33%;
+  text-align: center
+}
+.ks text{
+  color: white
+}
+.ks-text{
+  color: #fac6ae;
+  font-size: 12px;
+}
+.resume{
+  background: white;
+  display: flex;
+  width: 675rpx;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 40rpx 0;
+  margin-top: -70rpx;
+}
+.resume>view{
+  width: 33.33%;
+  text-align: center
+}
+.resume image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.resume-text{
+  padding-top: 10rpx;
+}
+.resume text{
+  font-size: 14px;
+}
+.signin{
+  width: 90%;
+  margin: 20rpx auto;
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30rpx 0;
+  text-align: center
+}
+ .signin>view{
+  width: 25%;
+  text-align: center;
+  line-height: 50rpx;
+}
+.signin image{
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden
+}
+.signin-text{
+  font-size: 12px;
+  color: #8d8d8d
+}
+.opinion{
+  width: 90%;
+  margin: 20rpx auto;
+  background: #fff;
+  border-radius: 10px;
+}
+.opinion>view{
+  padding: 20rpx;
+  line-height: 50rpx;
+  display: flex
+}
+.opinion>view:nth-child(1){
+  border-bottom: 1px solid #ddd
+}
+.opinion image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.opinion text{
+  font-size: 16px;
+  width: 90%
+}

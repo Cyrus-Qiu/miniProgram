@@ -1,0 +1,135 @@
+/* pages/one/one.wxss */
+.box{
+  margin: 0 10px;
+}
+.head{
+  display: flex;
+  font-size: 15px;
+  margin: 0 20rpx;
+}
+.head image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.head text{
+  line-height: 28.39px;
+  margin-right: 10rpx;
+  width: 50%
+}
+.head text:nth-child(2){
+  color: #6e6e6e;
+}
+.head input{
+  margin-left: 20rpx;
+  padding: 5rpx 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+.nav{
+  background: url(cloud://qxr-qkip9.7178-qxr-qkip9-1300569155/58/58nav.png);
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav view{
+  text-align: center;
+  width: 20%;
+  font-size: 14px;
+  margin-top: 30px;  
+}
+.nav view image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.about_page{
+  margin: 0 10px;
+}
+.swiper-tab{
+    width: 100%;
+    /* border-bottom: 2rpx solid #ccc; */
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: #ccc;
+    font-size: 16px;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.active{
+    color:#F65959;
+    /* border-bottom: 4rpx solid #F65959; */
+    font-size: 16px;
+    font-weight: bold;
+}
+.juzhong{
+  margin: 0 auto;
+}
+.domain{
+  background-color: #fff;
+  height: 100%;
+  margin:0 10px;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.fw{
+  position: relative;
+  padding: 10rpx 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.fw text:nth-child(1){
+  font-size: 20px;
+}
+.fw text:nth-child(3),.fw text:nth-child(4),.fw text:nth-child(6){
+  display: inline-block;
+  color: #9b9b9b;
+  margin-top: 5px;
+  margin-right: 20px;
+  
+}
+.fw text:nth-last-child(3){
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #ee5f37;
+}
+.fw text:nth-last-child(2){
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #e4584b;
+}
+.fw text:last-child{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10rpx;
+  border: 2px solid #da6369;
+  color: #e4584b;
+  border-radius: 20px;
+}
+.zx{
+  border-bottom:1px solid #ddd;
+  padding: 20px 0
+}
+.zx text{
+  display: block
+}
+.zx text:last-child{
+  font-size: 12px;
+  color: #a7a7a7
+}
+.zx image{
+  width: 235rpx;
+  height: 205.4rpx;
+  margin: 10px 0
+}
