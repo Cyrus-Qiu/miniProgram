@@ -1,11 +1,14 @@
 {
   "pages": [
-    "pages/three/three",
+    "pages/one/one",  
+    "pages/login/login", 
     "pages/two/two",
-    "pages/one/one",        
+    
+    "pages/three/three",
+               
     "pages/weather/weather",
     "pages/four/four",
-    "pages/login/login",  
+     
     
 
     "pages/index/index",

@@ -1,4 +1,4 @@
-<view class="box">
+<view class="box" id="box">
   <view class="head">
     <text bindtap="add">{{weatherData}}</text>
     <input type="text" placeholder="找工作 找房子 找服务"></input>

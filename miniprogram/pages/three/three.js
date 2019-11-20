@@ -34,7 +34,7 @@ Page({
       isay = e.detail.value.says,
       syas = that.data.syas,
       length = syas.length,
-      key = '0623c044b76649d381a3843d90f78e8b'
+      key = 'c2fedcd494974d41becd6df1118fa9fa'
 
     console.log(length)
     wx.request({

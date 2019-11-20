@@ -14,7 +14,7 @@
 .head text{
   line-height: 28.39px;
   margin-right: 10rpx;
-  width: 50%
+  width: 56%
 }
 .head text:nth-child(2){
   color: #6e6e6e;

@@ -1,32 +1,20 @@
-// pages/weather/weather.js
-let City = require('../../libs/allcity.js');
+// pages/sign/sign.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    city: [],
-    config: {
-      horizontal: true, // 第一个选项是否横排显示（一般第一个数据选项为 热门城市，常用城市之类 ，开启看需求）
-      animation: true, // 过渡动画是否开启
-      search: true, // 是否开启搜索
-      searchHeight: 45, // 搜索条高度
-      suctionTop: true // 是否开启标题吸顶
-    }
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      city: City
-    })
+
   },
-  bindtap(e) {
-    console.log(e.detail.name)
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
